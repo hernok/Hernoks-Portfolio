@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./SchoolProjectCard.module.css";
 
 const SchoolProjectCard = ({
+  key,
   id,
   image,
   project_name,
@@ -15,7 +16,7 @@ const SchoolProjectCard = ({
   live,
 }) => {
   return (
-    <div className={`${styles["school-project-card"]}`} key={`${id}`}>
+    <div className={`${styles["school-project-card"]}`} key={`${key}`}>
       <div className={styles["school-project-card-image"]}>
         <a
           href={live ? `${href}` : `${git}`}

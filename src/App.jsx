@@ -17,9 +17,10 @@ const App = () => {
   }, []);
 
   return (
-    <div class="card-container">
+    <div className="card-container">
       {data.map((card) => (
         <SchoolProjectCard
+          key={card.id}
           id={card.id}
           image={card.image}
           project_name={card.project_name}
