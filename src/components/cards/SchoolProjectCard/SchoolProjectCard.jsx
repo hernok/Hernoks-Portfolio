@@ -22,7 +22,7 @@ const SchoolProjectCard = ({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={`/docs/assets/${image}`} alt={alt} />
+          <img src={`/images/${image}`} alt={alt} />
         </a>
         <div className={styles["school-project-card-live-container"]}>
           {live && (
