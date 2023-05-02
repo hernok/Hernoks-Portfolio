@@ -3,7 +3,7 @@ import styles from "./SchoolProjectCard.module.css";
 
 const SchoolProjectCard = ({
   id,
-  image,
+  imageSrc,
   project_name,
   date,
   description,
@@ -22,7 +22,7 @@ const SchoolProjectCard = ({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={`/src/assets/images/${image}`} alt={alt} />
+          <img src={imageSrc} alt={alt} />
         </a>
         <div className={styles["school-project-card-live-container"]}>
           {live && (
