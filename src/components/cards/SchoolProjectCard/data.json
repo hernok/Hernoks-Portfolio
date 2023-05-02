@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "date": "1.1.2023",
+    "project_name": "1 Saga Farmann",
+    "description": "Saga Farmann is a web application for a viking boat expedition.",
+    "group_project": false,
+    "live": true,
+    "git": "https://github.com/larsbill/Saga-Farmann",
+    "href": "https://sagafarmann.com/",
+    "image": "/src/assets/images/saga-farmann.png",
+    "gif": "",
+    "alt": ""
+  },
+  {
+    "id": 2,
+    "date": "1.1.2023",
+    "project_name": "2 Saga Farmann",
+    "description": "Saga Farmann is a web application for a viking boat expedition.",
+    "group_project": false,
+    "live": true,
+    "git": "https://github.com/larsbill/Saga-Farmann",
+    "href": "https://sagafarmann.com/",
+    "image": "/src/assets/images/saga-farmann.png",
+    "gif": "",
+    "alt": ""
+  },
+  {
+    "id": 3,
+    "date": "1.1.2023",
+    "project_name": "3 Saga Farmann",
+    "description": "Saga Farmann is a web application for a viking boat expedition.",
+    "group_project": false,
+    "live": true,
+    "git": "https://github.com/larsbill/Saga-Farmann",
+    "href": "https://sagafarmann.com/",
+    "image": "/src/assets/images/saga-farmann.png",
+    "gif": "",
+    "alt": ""
+  },
+  {
+    "id": 4,
+    "date": "1.1.2023",
+    "project_name": "4 Saga Farmann",
+    "description": "Saga Farmann is a web application for a viking boat expedition.",
+    "group_project": true,
+    "live": false,
+    "git": "https://github.com/larsbill/Saga-Farmann",
+    "href": "https://sagafarmann.com/",
+    "image": "/src/assets/images/saga-farmann.png",
+    "gif": "",
+    "alt": ""
+  },
+  {
+    "id": 5,
+    "date": "1.1.2023",
+    "project_name": "5 Saga Farmann",
+    "description": "Saga Farmann is a web application for a viking boat expedition.",
+    "group_project": true,
+    "live": true,
+    "git": "https://github.com/larsbill/Saga-Farmann",
+    "href": "https://sagafarmann.com/",
+    "image": "/src/assets/images/saga-farmann.png",
+    "gif": "",
+    "alt": ""
+  }
+]

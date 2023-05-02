@@ -1,0 +1,146 @@
+.school-project-card {
+  position: relative;
+  width: 30%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  vertical-align: top;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.3s ease-in-out;
+  filter: brightness(90%);
+}
+
+.school-project-card:hover {
+  filter: brightness(100%);
+}
+
+.school-project-card-image {
+  position: relative;
+}
+
+.school-project-card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.school-project-card-live-container {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.school-project-card-live {
+  padding: 5px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 14px;
+}
+
+.school-project-card-group {
+  padding: 5px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 14px;
+}
+
+.school-project-card-content {
+  padding: 10px;
+}
+
+.school-project-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.school-project-card-title {
+  margin: 0;
+  color: #2196f3;
+}
+
+.school-project-card-date {
+  margin: 0;
+  font-size: 14px;
+}
+
+.school-project-card-description {
+  margin: 10px 0;
+}
+
+.school-project-card-github {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.school-project-card-github a {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.school-project-card-github a:hover {
+  color: #1565c0;
+}
+
+.school-project-card-links {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.school-project-card-live a {
+  background-color: #2196f3;
+  color: #fff;
+  text-decoration: none;
+}
+
+.school-project-card-git a {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.school-project-card-git a:hover {
+  color: #1565c0;
+}
+
+.school-project-card.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.school-project-card.dark .school-project-card-live {
+  background-color: #444;
+  color: #fff;
+}
+
+.school-project-card.dark .school-project-card-group {
+  background-color: #444;
+  color: #fff;
+}
+
+.school-project-card.dark .school-project-card-title,
+.school-project-card.dark .school-project-card-date {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .school-project-card {
+    width: 48%;
+    margin-right: 4%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .school-project-card {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
