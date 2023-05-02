@@ -19,20 +19,21 @@ const App = () => {
   return (
     <div className="card-container">
       {data.map((card) => (
-        <SchoolProjectCard
-          key={card.id}
-          id={card.id}
-          image={card.image}
-          project_name={card.project_name}
-          date={card.date}
-          description={card.description}
-          group_project={card.group_project}
-          git={card.git}
-          gif={card.gif}
-          alt={card.alt}
-          href={card.href}
-          live={card.live}
-        />
+        <div className="card-wrapper" key={card.id}>
+          <SchoolProjectCard
+            id={card.id}
+            image={card.image}
+            project_name={card.project_name}
+            date={card.date}
+            description={card.description}
+            group_project={card.group_project}
+            git={card.git}
+            gif={card.gif}
+            alt={card.alt}
+            href={card.href}
+            live={card.live}
+          />
+        </div>
       ))}
     </div>
   );
