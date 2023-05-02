@@ -7,9 +7,7 @@ const App = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch(
-        "/src/components/cards/SchoolProjectCard/data.json"
-      );
+      const response = await fetch("/data.json");
       const data = await response.json();
       setData(data);
     }
