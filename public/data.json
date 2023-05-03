@@ -22,12 +22,12 @@
     "git": "https://github.com/hernok/PokeAPI-Eksamen-i-React",
     "href": "https://hernok.github.io/PokeAPI-Eksamen-i-React",
     "image": "pokeapi-preview.png",
-    "gif": "",
+    "gif": "pokeapi-preview.gif",
     "alt": "PokeAPI React exam website preview"
   },
   {
     "id": 3,
-    "date": "12.09.2022",
+    "date": "09.12.2022",
     "project_name": "NodeJS exam",
     "description": "A recipe database with tiers, recipes for both free and premium users.",
     "group_project": false,
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "date": "25.01.2023",
+    "date": "24.01.2023",
     "project_name": "NextJS - PokeAPI + sqlite3",
     "description": "A simple app using PokeAPI and SQLite3, add pokemon to favourites.",
     "group_project": false,
@@ -61,7 +61,7 @@
     "git": "https://github.com/larsbill/Saga-Farmann",
     "href": "https://sagafarmann.com/",
     "image": "saga-farmann.png",
-    "gif": "",
+    "gif": "saga-farmann.gif",
     "alt": "Saga-farmann website preview"
   }
 ]

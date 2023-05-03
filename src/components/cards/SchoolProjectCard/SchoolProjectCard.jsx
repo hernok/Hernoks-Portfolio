@@ -22,8 +22,16 @@ const SchoolProjectCard = ({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={`/assets/images/${image}`} alt={alt} />
+          <div
+            className={gif !== "" ? styles["static"] : styles["no-gif"]}
+            alt={alt}
+            style={{
+              "--hover-background-image": `url(/assets/gifs/${gif})`,
+              "--static-background-image": `url(/assets/images/${image})`,
+            }}
+          />
         </a>
+
         <div className={styles["school-project-card-live-container"]}>
           {live && (
             <div className={styles["school-project-card-live"]}>

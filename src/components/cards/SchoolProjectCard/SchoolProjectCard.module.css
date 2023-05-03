@@ -9,12 +9,25 @@
 
 .school-project-card-image {
   position: relative;
+  height: 200px;
+  overflow: hidden;
 }
 
-.school-project-card-image img {
+.static,
+.no-gif {
+  background-image: var(--static-background-image);
+  background-size: "cover";
+  background-position: center;
   display: block;
-  width: 100%;
-  height: auto;
+  width: 360px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.static:hover {
+  background-image: var(--hover-background-image);
 }
 
 .school-project-card-live-container {
@@ -119,20 +132,4 @@
 .school-project-card.dark .school-project-card-title,
 .school-project-card.dark .school-project-card-date {
   color: #fff;
-}
-
-@media screen and (max-width: 768px) {
-  .school-project-card {
-    width: 48%;
-    margin-right: 4%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .school-project-card {
-    display: block;
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
 }
