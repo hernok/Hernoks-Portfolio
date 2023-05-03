@@ -11,7 +11,6 @@ const App = () => {
       const data = await response.json();
       setData(data);
       data.sort((b, a) => parseInt(a.id) - parseInt(b.id));
-      console.log(data);
     }
     fetchData();
   }, []);
