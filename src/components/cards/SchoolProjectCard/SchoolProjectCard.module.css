@@ -1,6 +1,8 @@
 .school-project-card {
+  position: relative;
   transition: all 0.3s ease-in-out;
   filter: brightness(80%);
+  height: 360px;
 }
 
 .school-project-card:hover {
@@ -19,8 +21,8 @@
   background-size: "cover";
   background-position: center;
   display: block;
-  width: 360px;
-  height: 200px;
+  width: auto;
+  height: 100%;
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease-in-out;
@@ -54,7 +56,11 @@
 }
 
 .school-project-card-content {
+  flex-direction: column-reverse;
+  position: relative;
   padding: 10px;
+  height: 100%;
+  overflow: auto;
 }
 
 .school-project-card-header {
@@ -78,7 +84,9 @@
 }
 
 .school-project-card-github {
-  margin-top: 10px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
   font-size: 14px;
 }
 
@@ -132,4 +140,9 @@
 .school-project-card.dark .school-project-card-title,
 .school-project-card.dark .school-project-card-date {
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .school-project-card {
+    height: unset;
+  }
 }

@@ -54,15 +54,15 @@ const SchoolProjectCard = ({
         </div>
         <div className={styles["school-project-card-description"]}>
           <p>{description}</p>
-          {git && (
-            <div className={styles["school-project-card-github"]}>
-              <a href={`${git}`} target="_blank" rel="noopener noreferrer">
-                View on GitHub
-              </a>
-            </div>
-          )}
         </div>
       </div>
+      {git && (
+        <div className={styles["school-project-card-github"]}>
+          <a href={`${git}`} target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </div>
+      )}
     </div>
   );
 };
