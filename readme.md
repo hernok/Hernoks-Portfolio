@@ -69,7 +69,7 @@ This portfolio was solely created by me.
 
 ## Authors
 
-- **Herman Novak** - [Your Github](https://github.com/your-github-url)
+- **Herman Novak** - [Hernok](https://github.com/hernok)
 
 ## Contact
 
