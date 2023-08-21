@@ -63,5 +63,18 @@
     "image": "front-end-arbeidskrav.png",
     "gif": "front-end-arbeidskrav.gif",
     "alt": "Hotdot shops preview"
+  },
+  {
+    "id": 6,
+    "date": "08.08.2023",
+    "project_name": "Divination Card Profit Calculator",
+    "description": "An application that calculates potential profit for turning in divination cards in Path of Exile. Made using React and TypeScript",
+    "group_project": false,
+    "live": false,
+    "git": "https://github.com/hernok/div-card-profit",
+    "href": "https://github.com/hernok/div-card-profit",
+    "image": "div-card-profit.png",
+    "gif": "div-card-profit.gif",
+    "alt": "Divination card profit preview."
   }
 ]
