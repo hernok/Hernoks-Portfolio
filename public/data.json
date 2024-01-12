@@ -1,80 +1,15 @@
 [
   {
     "id": 1,
-    "date": "01.12.2022",
-    "project_name": "PokeAPI - React exam",
-    "description": "A pokemon application made with React, display all kinds of pokemon, click them to view their evolutions.",
+    "date": "11.01.2024",
+    "project_name": "NEXT Portfolio",
+    "description": "Mitt nye portefølje. Laget med NextJS, TypeScript og Tailwind. AWS S3 for nedlastning av CV",
     "group_project": false,
     "live": true,
-    "git": "https://github.com/hernok/PokeAPI-Eksamen-i-React",
-    "href": "https://hernok.github.io/PokeAPI-Eksamen-i-React",
-    "image": "pokeapi-preview.png",
-    "gif": "pokeapi-preview.gif",
-    "alt": "PokeAPI React exam website preview"
-  },
-  {
-    "id": 2,
-    "date": "09.12.2022",
-    "project_name": "NodeJS exam",
-    "description": "A recipe database with tiers, recipes for both free and premium users. Made with SQLite3 and NodeJS.",
-    "group_project": false,
-    "live": false,
-    "git": "https://github.com/hernok/Webtechnology-NodeJS-Exam",
-    "href": "https://github.com/hernok/Webtechnology-NodeJS-Exam",
-    "image": "nodejs-sqlite.png",
-    "gif": "nodejs-sqlite.gif",
-    "alt": "NodeJS recipe database preview"
-  },
-  {
-    "id": 3,
-    "date": "24.01.2023",
-    "project_name": "NextJS - PokeAPI + sqlite3",
-    "description": "A simple app using PokeAPI and SQLite3, add pokemon to favourites and store them in the database.",
-    "group_project": false,
-    "live": false,
-    "git": "https://github.com/hernok/pokemon_nextjs",
-    "href": "https://github.com/hernok/pokemon_nextjs",
-    "image": "nextjs-pokemon.png",
-    "gif": "nextjs-pokemon.gif",
-    "alt": "PokeAPI + sqlite3 preview"
-  },
-  {
-    "id": 4,
-    "date": "26.01.2023",
-    "project_name": "Saga Farmann",
-    "description": "Saga Farmann is a web application for a viking boat expedition. Made with NextJS + TypeScript.Wordpress headless CMS for backend",
-    "group_project": true,
-    "live": true,
-    "git": "https://github.com/larsbill/Saga-Farmann",
-    "href": "https://sagafarmann.com/",
-    "image": "saga-farmann.png",
-    "gif": "saga-farmann.gif",
-    "alt": "Saga-farmann website preview"
-  },
-  {
-    "id": 5,
-    "date": "08.05.2023",
-    "project_name": "Front-end programmering arbeidskrav",
-    "description": "Local hotdog stands in sandefjord. Made using NextJS and NodeJS, read readme before using deployed page.",
-    "group_project": false,
-    "live": true,
-    "git": "https://github.com/hernok/Front-end-arbeidskrav",
-    "href": "https://front-end-arbeidskrav.vercel.app/",
-    "image": "front-end-arbeidskrav.png",
-    "gif": "front-end-arbeidskrav.gif",
-    "alt": "Hotdot shops preview"
-  },
-  {
-    "id": 6,
-    "date": "08.08.2023",
-    "project_name": "Divination Card Profit Calculator",
-    "description": "An application that calculates potential profit for turning in divination cards in Path of Exile. Made using React and TypeScript",
-    "group_project": false,
-    "live": false,
-    "git": "https://github.com/hernok/div-card-profit",
-    "href": "https://github.com/hernok/div-card-profit",
-    "image": "div-card-profit.png",
-    "gif": "div-card-profit.gif",
-    "alt": "Divination card profit preview."
+    "git": "https://github.com/hernok/next-portfolio",
+    "href": "https://next-portfolio-ruby-two.vercel.app/",
+    "image": "herman-novak-portefløje.png",
+    "gif": "herman-novak-portefløje.gif",
+    "alt": "Forhåndsvisning av min nye porteføljeside"
   }
 ]
